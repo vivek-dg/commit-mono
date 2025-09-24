@@ -2,6 +2,7 @@
     "dependencies": {
         "vite": "^7.1.7"
     },
+    "license": "MIT",
     "name": "commit-mono",
     "packageManager": "bun@1.2.22",
     "prettier": {
