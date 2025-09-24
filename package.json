@@ -2,6 +2,7 @@
     "dependencies": {
         "vite": "^7.1.7"
     },
+    "license": "MIT",
     "name": "commit-mono",
     "packageManager": "bun@1.2.22",
     "prettier": {
@@ -10,8 +11,6 @@
         "tabWidth": 4
     },
     "private": true,
-    "type": "commonjs",
-    "license": "MIT",
     "scripts": {
         "build": "vite build",
         "dev": "vite",
