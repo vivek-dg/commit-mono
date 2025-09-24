@@ -1,15 +1,22 @@
 {
-    "name": "commit-webtests",
+    "dependencies": {
+        "vite": "^7.1.7"
+    },
+    "name": "commit-mono",
+    "packageManager": "bun@1.2.22",
+    "prettier": {
+        "printWidth": 120,
+        "semi": false,
+        "tabWidth": 4
+    },
     "private": true,
-    "version": "0.0.0",
     "type": "commonjs",
     "license": "MIT",
     "scripts": {
-        "dev": "vite",
         "build": "vite build",
+        "dev": "vite",
         "preview": "vite preview"
     },
-    "devDependencies": {
-        "vite": "^5.0.12"
-    }
+    "type": "commonjs",
+    "version": "1.0.0"
 }
